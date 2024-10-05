@@ -1,5 +1,9 @@
 /* LAPTOP VIEW RESPONSIVESNESSsssssssssssssss */
 
+#container{
+    display: flex;
+    flex-direction: column;
+}
 body{
     background-color: aliceblue;
     margin: 0px;
@@ -12,13 +16,15 @@ body{
 }
 
 .current-user{
-    /* border: 1px solid red; */
     display: flex;
     gap: 10px;
     width: 500px;
+    height: 120px;
     border-radius: 10px;
     padding: 20px;;
     background-color: white;
+    margin: 20px 0px;
+    /* border: 2px solid red; */
 }
 
 .addDeleteBtns{
@@ -32,10 +38,10 @@ body{
     border-radius: 10px;
     background-color: aliceblue;
 }
-
+/* 
 .mainBox{
     width: 100%;
-}
+} */
 
 .userDetails{
     display: flex;
